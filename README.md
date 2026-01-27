@@ -1,9 +1,14 @@
 
 ## Hybrid RAG Pipeline on arXiv AI Research Papers
+This project implements a production-ready Retrieval-Augmented Generation (RAG)
+system using arXiv AI research papers. The system combines keyword-based and
+semantic retrieval with LLM-based answer generation.
 
-### Overview
-This project implements a production-ready hybrid RAG pipeline using
-arXiv AI research papers.
+## Motivation
+
+Large Language Models often lack access to up-to-date or domain-specific
+knowledge. This project explores a hybrid Retrieval-Augmented Generation (RAG)
+approach to ground LLM responses in real AI research papers.
 
 ### Features
 - BM25 keyword retrieval
